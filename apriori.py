@@ -55,9 +55,8 @@ def analyze_patterns(transactions, min_support=0.01, min_confidence=0.5, max_len
         print(f"An error occurred: {str(e)}")
         return None, None
 
-# Example usage
 if __name__ == "__main__":
-    # Update this with the actual file path to your document
+   
     file_path = 'chess(3).docx'
     
     # Load transactions
